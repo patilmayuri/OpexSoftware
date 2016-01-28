@@ -1,7 +1,7 @@
 litc-nodejs Cookbook
 ===========================
 This cookbook installs Node.js on Windows systems.
-Default version: 4.2.2 for 32 bit and 64 bit
+Default version: 4.2.6 for 32 bit and 64 bit
 
 Platforms
 --------
@@ -16,7 +16,7 @@ Attributes
 ==================
 | Key | Type | Description | Default |
 | --- | ---- | ----------- | ------- |
-| ['litc-nodejs']['version'] | String | Version of the installer | "4.2.2"|
+| ['litc-nodejs']['version'] | String | Version of the installer | "4.2.6"|
 | ['litc-nodejs']['source'] | String | URL to the installer archive to download | "https://nodejs.org/dist/v4.2.6/node-v4.2.6-x86.msi" |
 
 Sources
